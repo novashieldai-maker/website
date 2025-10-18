@@ -17,8 +17,8 @@
         <a href="#" class="font-bold tracking-tight text-slate-100">Projeto Scam Awareness • FCT NOVA</a>
         <nav class="hidden sm:flex items-center gap-8 text-sm text-slate-300">
           <a class="hover:text-white transition-colors" href="#sobre">Sobre</a>
-          <a class="hover:text-white transition-colors" href="#objetivos">Objetivos</a>
           <a class="hover:text-white transition-colors" href="#video">Vídeo</a>
+          <a class="hover:text-white transition-colors" href="#objetivos">Objetivos</a>
           <a class="hover:text-white transition-colors" href="#faq">FAQ</a>
         </nav>
         <a href="https://docs.google.com/forms/d/1JvryyBNXs-bMRYsJbeursj6AjvNl9Ck0HH2oGwvK3Nc/viewform?pli=1&pli=1&edit_requested=true" target="_blank" rel="noopener"
@@ -83,6 +83,37 @@
       </div>
     </section>
 
+    <!-- VÍDEO (agora antes dos objetivos) -->
+    <section id="video" class="py-24 rounded-t-[3rem] bg-gradient-to-r from-slate-200/60 via-white to-slate-200/60 text-slate-900">
+      <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-3xl md:text-4xl font-['Rationale',_sans-serif] text-center">
+          Entende o desafio das fraudes online e o papel da FCT
+        </h2>
+        <p class="text-center mt-4 text-slate-600">
+          Vídeo explicativo sobre o impacto dos scams digitais e o projeto de prevenção em causa.
+        </p>
+        <div class="mt-10">
+          <div class="relative w-full" style="padding-top: 56.25%;">
+            <iframe
+              class="absolute inset-0 w-full h-full rounded-3xl border border-slate-300"
+              src="https://www.youtube.com/embed/IrrkE4aCkbs"
+              title="Scam Awareness FCT | Protege-te das Fraudes Online"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+        <div class="text-center mt-8">
+          <a href="https://docs.google.com/forms/d/1JvryyBNXs-bMRYsJbeursj6AjvNl9Ck0HH2oGwvK3Nc/viewform?pli=1&pli=1&edit_requested=true" target="_blank" rel="noopener"
+            class="inline-flex px-6 py-3 rounded-full bg-violet-500 hover:bg-violet-700 text-white shadow shadow-purple-500/25">
+            Partilhar a tua experiência
+          </a>
+        </div>
+      </div>
+    </section>
+
     <!-- COMO AJUDA -->
     <section id="objetivos" class="py-24">
       <div class="max-w-6xl mx-auto px-6">
@@ -111,37 +142,6 @@
               Com base nos dados recolhidos, serão apresentadas recomendações à FCT para reforçar a segurança digital e prevenir novas fraudes.
             </p>
           </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- VÍDEO -->
-    <section id="video" class="py-24 rounded-t-[3rem] bg-gradient-to-r from-slate-200/60 via-white to-slate-200/60 text-slate-900">
-      <div class="max-w-6xl mx-auto px-6">
-        <h2 class="text-3xl md:text-4xl font-['Rationale',_sans-serif] text-center">
-          Entende o desafio das fraudes online e o papel da FCT
-        </h2>
-        <p class="text-center mt-4 text-slate-600">
-          Vídeo explicativo sobre o impacto dos scams digitais e o projeto de prevenção em causa.
-        </p>
-        <div class="mt-10">
-          <div class="relative w-full" style="padding-top: 56.25%;">
-            <iframe
-              class="absolute inset-0 w-full h-full rounded-3xl border border-slate-300"
-              src="https://www.youtube.com/embed/IrrkE4aCkbs"
-              title="Scam Awareness FCT | Protege-te das Fraudes Online"
-              loading="lazy"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen>
-            </iframe>
-          </div>
-        </div>
-        <div class="text-center mt-8">
-          <a href="https://docs.google.com/forms/d/1JvryyBNXs-bMRYsJbeursj6AjvNl9Ck0HH2oGwvK3Nc/viewform?pli=1&pli=1&edit_requested=true" target="_blank" rel="noopener"
-            class="inline-flex px-6 py-3 rounded-full bg-violet-500 hover:bg-violet-700 text-white shadow shadow-purple-500/25">
-            Partilhar a tua experiência
-          </a>
         </div>
       </div>
     </section>
@@ -187,7 +187,7 @@
 
     <!-- FOOTER -->
     <footer class="text-center text-sm text-slate-500 py-8 border-t border-slate-800">
-      © <span id="ano"></span> FCT NOVA — Projeto Scam Awareness • Grupo de Gestão da Qualidade
+      © <span id="ano"></span> FCT NOVA — Projeto Scam Awareness • Grupo de Gestão da Qualidade • Daniel Ribeiro
       <script type="module">
         import './src/main.js'
         import './src/style.css'
